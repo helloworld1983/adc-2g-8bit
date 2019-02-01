@@ -1,0 +1,81 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# REL_OMRON_G6K-2F-RF-DC5-Relays
+#
+DEF ~REL_OMRON_G6K-2F-RF-DC5-Relays RL 0 60 Y Y 4 L N
+F0 "RL" 150 150 50 H V C CNN
+F1 "REL_OMRON_G6K-2F-RF-DC5-Relays" 0 10 60 H I L CNN
+F2 "Relays:REL_OMRON_G6K-2F-RF" 0 -80 60 H I L CNN
+F3 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\REL_OMRON_G6K-2F-RF.pdf" 0 -170 60 H I L CNN
+F4 "=Value" 0 -260 60 H I L CNN
+F5 "REL_OMRON_G6K-2F-RF-DC5" 0 -260 60 H I L CNN "Part Number"
+F6 "REL_OMRON_G6K-2F-RF" 0 -350 60 H I L CNN "Library Ref"
+F7 "SchLib\\Relays.SchLib" 0 -440 60 H I L CNN "Library Path"
+F8 "=Value" 0 -530 60 H I L CNN "Comment"
+F9 "Standard" 0 -620 60 H I L CNN "Component Kind"
+F10 "Standard" 0 -710 60 H I L CNN "Component Type"
+F11 "REL_OMRON_G6K-2F-RF" 0 -800 60 H I L CNN "Footprint"
+F12 "10" 0 -890 60 H I L CNN "Pin Count"
+F13 "~~" 0 -980 60 H I L CNN "Case"
+F14 "PcbLib\\Relays.PcbLib" 0 -1070 60 H I L CNN "Footprint Path"
+F15 "REL_OMRON_G6K-2F-RF" 0 -1160 60 H I L CNN "Footprint Ref"
+F16 "SMD Relay,  Body 10.3mm x 6.9mm, OMRON G6K-2F-RF" 0 -1250 60 H I L CNN "PackageDescription"
+F17 "~~" 0 -1340 60 H I L CNN "Family"
+F18 "Yes" 0 -1430 60 H I L CNN "Mounted"
+F19 "No" 0 -1520 60 H I L CNN "Socket"
+F20 "Yes" 0 -1610 60 H I L CNN "SMD"
+F21 "No" 0 -1700 60 H I L CNN "PressFit"
+F22 "No" 0 -1790 60 H I L CNN "Sense"
+F23 "~~" 0 -1880 60 H I L CNN "Sense Comment"
+F24 "None" 0 -1970 60 H I L CNN "Status"
+F25 "~~" 0 -2060 60 H I L CNN "Status Comment"
+F26 "5VDC" 0 -2150 60 H I L CNN "Val"
+F27 "~~" 0 -2240 60 H I L CNN "SCEM"
+F28 "DPDT High-frequency Relay, G6K-2F-RF Series" 0 -2330 60 H I L CNN "Part Description"
+F29 "OMRON ELECTRONIC" 0 -2420 60 H I L CNN "Manufacturer"
+F30 "G6K-2F-RF-DC5" 0 -2510 60 H I L CNN "Manufacturer Part Number"
+F31 "5.4mm" 0 -2600 60 H I L CNN "ComponentHeight"
+F32 "~~" 0 -2690 60 H I L CNN "Manufacturer1 Example"
+F33 "~~" 0 -2780 60 H I L CNN "Manufacturer1 Part Number"
+F34 "~~" 0 -2870 60 H I L CNN "Manufacturer1 ComponentHeight"
+F35 "\\\\cern.ch\\dfs\\Applications\\Altium\\Datasheets\\REL_OMRON_G6K-2F-RF.pdf" 0 -2960 60 H I L CNN "HelpURL"
+F36 "~~" 0 -3050 60 H I L CNN "ComponentLink1URL"
+F37 "~~" 0 -3140 60 H I L CNN "ComponentLink1Description"
+F38 "~~" 0 -3230 60 H I L CNN "ComponentLink2URL"
+F39 "~~" 0 -3320 60 H I L CNN "ComponentLink2Description"
+F40 "CERN DEM JLC" 0 -3410 60 H I L CNN "Author"
+F41 "06/18/13 00:00:00" 0 -3500 60 H I L CNN "CreateDate"
+F42 "06/18/13 00:00:00" 0 -3590 60 H I L CNN "LatestRevisionDate"
+F43 "Relays" 0 -3680 60 H I L CNN "Library Name"
+F44 "This work is licensed under the Creative Commons CC-BY-SA 4.0 License. To the extent that circuit schematics that use Licensed Material can be considered to be ‘Adapted Material’, then the copyright holder waives article 3.b of the license with respect to these schematics." 0 -3770 60 H I L CNN "License"
+DRAW
+A 200 0 25 0 0 2 1 0 N 225 0 225 0
+A 400 -100 25 0 0 2 1 0 N 425 -100 425 -100
+A 400 100 25 0 0 2 1 0 N 425 100 425 100
+A 200 0 25 0 0 3 1 0 N 225 0 225 0
+A 400 -100 25 0 0 3 1 0 N 425 -100 425 -100
+A 400 100 25 0 0 3 1 0 N 425 100 425 100
+C 0 250 10 4 1 20 f
+C 300 250 10 4 1 20 f
+T 0 90 10 50 1 1 1 + Normal 0 L B
+T 0 150 250 40 1 4 1 CASE Normal 0 C C
+P 2 1 1 10 250 50 150 -50 N
+P 5 1 1 10 250 100 150 100 150 -100 250 -100 250 100 N
+P 2 2 1 10 420 80 220 10 N
+P 2 3 1 10 420 80 220 10 N
+P 4 4 1 10 0 300 0 200 300 200 300 300 N
+X 1 1 0 0 150 R 60 0 1 1 P
+X 8 8 400 0 150 L 60 0 1 1 P
+X NC 2 600 100 175 L 60 0 2 1 B
+X C 3 0 0 175 R 60 0 2 1 B
+X NO 4 600 -100 175 L 60 0 2 1 B
+X NO 5 600 -100 175 L 60 0 3 1 B
+X C 6 0 0 175 R 60 0 3 1 B
+X NC 7 600 100 175 L 60 0 3 1 B
+X CASE C1 -150 250 150 R 60 0 4 1 P
+X CASE C2 450 250 150 L 60 0 4 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

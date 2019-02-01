@@ -1,0 +1,22 @@
+*$
+********** Discrete JFET Electrical Parameters *************
+** Product: MMBF5486
+** N-Channel RF Amplifier
+** Package: TO-92 / SOT-23
+**----------------------------------------------------------
+.MODEL MMBF5486 NJF
++ VTO=-3.85            BETA=8.947e-4         LAMBDA=1.2021e-4
++ IS=1e-14             RD=1                  RS=1
++ ALPHA=1.0e-6         VK=1                  CGD=1.7248e-12
++ CGS=1.136e-12        M=0.485               PB=1.5
++ KF=3.9304e-18        AF=0.818              BETATCE=-0.45
++ VTOTC=-1.850e-3
+.MODEL mmbfj310 njf
++VTO=-4.16995 BETA=0.00260834 LAMBDA=0 RD=0.828616
++RS=1.65723 IS=1e-14 CGS=5.80456e-12 CGD=5.80456e-12
++PB=1.06503 FC=0.5 KF=1e-20 AF=0.2
+**----------------------------------------------------------
+** Creation: Sep.-21-2017   Rev: 1.0
+** ON Semiconductor
+*$
+

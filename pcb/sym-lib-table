@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name fmc_1g)(type Legacy)(uri ${KIPRJMOD}/fmc_1g.lib)(options "")(descr ""))
+  (lib (name fmc_1g-rescue)(type Legacy)(uri ${KIPRJMOD}/fmc_1g-rescue.lib)(options "")(descr ""))
+)
